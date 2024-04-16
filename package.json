@@ -1,0 +1,47 @@
+{
+  "name": "van-phuc",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "format": "prettier --write \"./**/*.{js, vue, css}\""
+  },
+  "dependencies": {
+    "@ckeditor-super/ckeditor5-super-custom": "^0.0.1",
+    "@ckeditor/ckeditor5-vue": "^5.1.0",
+    "@iconify-json/basil": "^1.1.5",
+    "@iconify-json/cif": "^1.1.9",
+    "@iconify-json/ep": "^1.1.14",
+    "@iconify-json/ic": "^1.1.17",
+    "@iconify-json/iconoir": "^1.1.39",
+    "@iconify-json/material-symbols": "^1.1.65",
+    "@iconify-json/mdi": "^1.1.66",
+    "@iconify-json/ri": "^1.1.15",
+    "@nuxt/ui": "^2.10.0",
+    "@nuxtjs/robots": "^3.0.0",
+    "@pinia/nuxt": "^0.4.11",
+    "@vee-validate/nuxt": "^4.12.0",
+    "@vuepic/vue-datepicker": "^7.3.0",
+    "moment": "^2.29.4",
+    "pinia": "2.0.33",
+    "vue3-carousel-nuxt": "^1.1.0",
+    "vue3-toastify": "^0.1.14"
+  },
+  "devDependencies": {
+    "@egoist/tailwindcss-icons": "^1.4.0",
+    "@nuxt/devtools": "latest",
+    "@nuxt/image": "^1.4.0",
+    "@nuxtjs/google-fonts": "^3.1.0",
+    "@nuxtjs/i18n": "^8.0.0-rc.11",
+    "nuxt": "^3.8.2",
+    "prettier": "^2.8.8",
+    "sass": "^1.61.0",
+    "sass-loader": "10.1.1",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5"
+  }
+}

@@ -1,0 +1,21 @@
+html {
+  /* Color */
+  color: #2c2c2c;
+  /* overflow: hidden !important; */
+  background-color: #f8f9fd;
+}
+
+.validate-error {
+  border-bottom: 1px solid #ff424e !important;
+}
+
+.validate-error-custome {
+  border: 1px solid #ff424e !important;
+  border-radius: 10px;
+  input {
+    border-radius: 10px;
+  }
+}
+.error-msg {
+  color: #ff424e;
+}
